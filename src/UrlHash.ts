@@ -12,10 +12,10 @@ export class UrlHash {
         })
         .join("&");
     }
-  
+
     static read(): any {
-      const params = {};
-  
+      const params: any = {};
+
       window.location.hash
         .substr(1)
         .split("&")
